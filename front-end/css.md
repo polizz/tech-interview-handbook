@@ -12,7 +12,7 @@ If you are a total beginner to CSS, Codecademy's [HTML & CSS course](https://www
 ## Glossary
 
 - [**Box Model**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) - The CSS box model describes the rectangular boxes that are generated for elements in the document tree and laid out according to the visual formatting model. Each box has a content area (e.g. text, an image, etc.) and optional surrounding padding, border, and margin areas.
-- [**Specificity**](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) - Specificity is how browsers decide which CSS property values are the most relevant to an element and, will therefore be applied. It is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector. 
+- [**Specificity**](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity) - Specificity is how browsers decide which CSS property values are the most relevant to an element and, will therefore be applied. It is a weight that is applied to a given CSS declaration, determined by the number of each selector type in the matching selector.
   - When multiple declarations have equal specificity, the last declaration found in the CSS is applied to the element. It only applies when the same element is targeted by multiple declarations. As per CSS rules, directly targeted elements will always take precedence over rules which an element inherits from its ancestor.
   - Typically used in type selectors/pseduo elements (`h1`, `div`, `:before`), class/attribute selectors (`.btn`, `[type="radio"]`), pseudo-classes (`:hover`) and ID selectors (`#someElement`).
   - Inline styles added to an element always overwrite any styles in external stylesheets, and thus can be thought of as having the highest specificity.
@@ -24,6 +24,9 @@ If you are a total beginner to CSS, Codecademy's [HTML & CSS course](https://www
   - Initial value: `none`
   - Values that are frequently used: `left`, `right`, `inline-start`, `inline-end`.
   - Additional Notes: Usually, there would be cases that you may want to move an item below any floated elements. E.g, you may want some elements like your paragraphs to remain adjacent to floats, but force headings and footers to be on their own line. See [`clear` attribute](https://developer.mozilla.org/en-US/docs/Web/CSS/clear) for more examples
+
+
+## Writing CSS-in-JS
 
 ## Writing CSS without Side Effects
 
